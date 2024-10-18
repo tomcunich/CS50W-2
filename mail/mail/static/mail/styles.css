@@ -1,0 +1,64 @@
+textarea {
+    min-height: 400px;
+}
+
+#email {
+    color: blue;
+    display: none;
+}
+
+#box {
+    width: 100%;
+    height: auto;
+    border: solid 1px rgb(45, 174, 255);
+    padding: 20px;
+    cursor: pointer;
+}
+
+.subbo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.recco {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.read {
+    background-color: red;
+}
+
+.unread {
+    background-color: blue;
+}
+
+#button {
+    padding:  400px;
+    border: 1px solid lightgray;
+    background: red;
+}
+
+#archive {
+    display: inline-block;
+    border: 1px solid grey;
+    cursor: pointer;
+    padding: 3px 7px;
+    margin-top: 5px;
+}
+
+#archive:hover {
+    background: orange;
+}
+
+#replybutton {
+    display: inline-block;
+    border: 1px solid grey;
+    cursor: pointer;
+    padding: 3px 7px;
+    margin-top: 5px;
+}
+
+#replybutton:hover {
+    background-color: rgb(106, 190, 255);
+}
